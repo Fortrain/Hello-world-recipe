@@ -1,0 +1,300 @@
+5918 15:57:57.008272 --- Starting bitbake server pid 5918 at 2023-07-18 15:57:57.008237 ---
+5918 15:57:57.009984 Started bitbake server pid 5918
+5918 15:57:57.010491 Entering server connection loop
+5918 15:57:57.010543 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+5918 15:57:57.012849 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+5918 15:57:57.012996 Processing Client
+5918 15:57:57.013064 Connecting Client
+5918 15:57:57.013545 Running command ['setFeatures', [2, 1]]
+5918 15:57:57.013909 Command Completed (socket: True)
+5918 15:57:57.015127 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1201,unix/Ansari:/tmp/.ICE-unix/1201', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'LANGUAGE': 'en_IN:en', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.RL2971', 'GDM_LANG': 'en_IN', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_IN', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d56b25be_1f84_4ca0_b749_8f955e727a15', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.91', 'DISPLAY': ':0', 'SHLVL': '3', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAIL': '/var/mail/ansari', 'OLDPWD': '/home/ansari', '_': '/home/ansari/bitbake/bin/bitbake', 'LC_CTYPE': 'C.UTF-8'}, ['/home/ansari/bitbake/bin/bitbake']]
+5918 15:57:57.039999 Command Completed (socket: True)
+5918 15:57:57.290789 Processing Client
+5918 15:57:57.290901 Disconnecting Client (socket: True)
+5918 15:57:57.291035 No timeout, exiting.
+5918 15:57:57.393296 Exiting (socket: True)
+5918 15:57:57.395295 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3205 11:42:21.038729 --- Starting bitbake server pid 3205 at 2023-07-19 11:42:21.038701 ---
+3205 11:42:21.040742 Started bitbake server pid 3205
+3205 11:42:21.041088 Entering server connection loop
+3205 11:42:21.041116 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3205 11:42:21.041824 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3205 11:42:21.042784 Processing Client
+3205 11:42:21.042834 Connecting Client
+3205 11:42:21.043164 Running command ['setFeatures', [2, 1]]
+3205 11:42:21.043529 Command Completed (socket: True)
+3205 11:42:21.044377 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/bitbake/bin', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake']]
+3205 11:42:21.178921 Command Completed (socket: True)
+3205 11:42:21.421585 Processing Client
+3205 11:42:21.421837 Disconnecting Client (socket: True)
+3205 11:42:21.422208 No timeout, exiting.
+3205 11:42:21.523398 Exiting (socket: True)
+3205 11:42:21.525575 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3217 11:46:30.702329 --- Starting bitbake server pid 3217 at 2023-07-19 11:46:30.702302 ---
+3217 11:46:30.704410 Started bitbake server pid 3217
+3217 11:46:30.704719 Entering server connection loop
+3217 11:46:30.704746 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3217 11:46:30.705506 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3217 11:46:30.706531 Processing Client
+3217 11:46:30.706580 Connecting Client
+3217 11:46:30.706804 Running command ['setFeatures', [2, 1]]
+3217 11:46:30.706966 Command Completed (socket: True)
+3217 11:46:30.707734 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/bitbake/bin', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake']]
+3217 11:46:30.731188 Command Completed (socket: True)
+3217 11:46:30.985786 Processing Client
+3217 11:46:30.986102 Disconnecting Client (socket: True)
+3217 11:46:30.986455 No timeout, exiting.
+3217 11:46:31.089641 Exiting (socket: True)
+3217 11:46:31.092089 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3262 11:56:57.778755 --- Starting bitbake server pid 3262 at 2023-07-19 11:56:57.778727 ---
+3262 11:56:57.786213 Started bitbake server pid 3262
+3262 11:56:57.786442 Entering server connection loop
+3262 11:56:57.786478 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3262 11:56:57.787918 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3262 11:56:57.787969 Processing Client
+3262 11:56:57.788005 Connecting Client
+3262 11:56:57.788261 Running command ['setFeatures', [2, 1]]
+3262 11:56:57.788688 Command Completed (socket: True)
+3262 11:56:57.789361 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/bitbake/bin', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari/hello-bitbake/conf', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake']]
+3262 11:56:57.809152 Command Completed (socket: True)
+3262 11:56:58.061562 Processing Client
+3262 11:56:58.061759 Disconnecting Client (socket: True)
+3262 11:56:58.062049 No timeout, exiting.
+3262 11:56:58.169674 Exiting (socket: True)
+3262 11:56:58.171264 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3271 11:58:36.152013 --- Starting bitbake server pid 3271 at 2023-07-19 11:58:36.151805 ---
+3271 11:58:36.152796 Started bitbake server pid 3271
+3271 11:58:36.153101 Entering server connection loop
+3271 11:58:36.153134 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3271 11:58:36.153888 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3271 11:58:36.154736 Processing Client
+3271 11:58:36.154786 Connecting Client
+3271 11:58:36.155017 Running command ['setFeatures', [2, 1]]
+3271 11:58:36.155180 Command Completed (socket: True)
+3271 11:58:36.156035 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/hello-bitbake', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari/hello-bitbake/conf', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake']]
+3271 11:58:36.177267 Command Completed (socket: True)
+3271 11:58:36.430391 Processing Client
+3271 11:58:36.430675 Disconnecting Client (socket: True)
+3271 11:58:36.431055 No timeout, exiting.
+3271 11:58:36.531567 Exiting (socket: True)
+3271 11:58:36.533373 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3387 12:12:46.403696 --- Starting bitbake server pid 3387 at 2023-07-19 12:12:46.403665 ---
+3387 12:12:46.405082 Started bitbake server pid 3387
+3387 12:12:46.405291 Entering server connection loop
+3387 12:12:46.405322 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3387 12:12:46.406399 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3387 12:12:46.407170 Processing Client
+3387 12:12:46.407241 Connecting Client
+3387 12:12:46.407750 Running command ['setFeatures', [2, 1]]
+3387 12:12:46.407946 Command Completed (socket: True)
+3387 12:12:46.409153 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/hello-bitbake', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake', 'printhello']]
+3387 12:12:46.423108 Base config valid
+3387 12:12:46.423392 Command Completed (socket: True)
+3387 12:12:46.424433 Running command ['getVariable', 'BBINCLUDELOGS']
+3387 12:12:46.424940 Command Completed (socket: True)
+3387 12:12:46.425438 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+3387 12:12:46.425927 Command Completed (socket: True)
+3387 12:12:46.426428 Running command ['getSetVariable', 'BB_CONSOLELOG']
+3387 12:12:46.426757 Command Completed (socket: True)
+3387 12:12:46.427161 Running command ['getSetVariable', 'BB_LOGCONFIG']
+3387 12:12:46.427484 Command Completed (socket: True)
+3387 12:12:46.429395 Running command ['getUIHandlerNum']
+3387 12:12:46.429730 Command Completed (socket: True)
+3387 12:12:46.430166 Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+3387 12:12:46.430429 Command Completed (socket: True)
+3387 12:12:46.430847 Running command ['getVariable', 'BB_DEFAULT_TASK']
+3387 12:12:46.431134 Command Completed (socket: True)
+3387 12:12:46.431524 Running command ['setConfig', 'cmd', 'build']
+3387 12:12:46.431758 Command Completed (socket: True)
+3387 12:12:46.432338 Running command ['buildTargets', ['printhello'], 'build']
+3387 12:12:46.432430 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7f2318f29d30>>
+3387 12:12:46.432569 Command Completed (socket: True)
+3387 12:12:46.509612 Parsing started
+3387 12:12:46.517879 Parse cache valid
+3387 12:12:46.519148 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7f2318f29d30>> at idleFinish
+3387 12:12:46.519610 Processing Client
+3387 12:12:46.519720 Disconnecting Client (socket: True)
+3387 12:12:46.519938 Parse cache invalidated
+3387 12:12:46.519972 No timeout, exiting.
+3387 12:12:46.621998 Exiting (socket: True)
+3387 12:12:46.623629 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3414 12:15:32.776788 --- Starting bitbake server pid 3414 at 2023-07-19 12:15:32.776760 ---
+3414 12:15:32.777636 Started bitbake server pid 3414
+3414 12:15:32.781603 Entering server connection loop
+3414 12:15:32.782188 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3414 12:15:32.820038 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3414 12:15:32.820119 Processing Client
+3414 12:15:32.820170 Connecting Client
+3414 12:15:32.820539 Running command ['setFeatures', [2, 1]]
+3414 12:15:32.820971 Command Completed (socket: True)
+3414 12:15:32.826500 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake/conf', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/hello-bitbake', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari/hello-bitbake', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake', 'printhello']]
+3414 12:15:32.842221 Base config valid
+3414 12:15:32.842446 Command Completed (socket: True)
+3414 12:15:32.842894 Running command ['getVariable', 'BBINCLUDELOGS']
+3414 12:15:32.843226 Command Completed (socket: True)
+3414 12:15:32.843603 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+3414 12:15:32.843832 Command Completed (socket: True)
+3414 12:15:32.844225 Running command ['getSetVariable', 'BB_CONSOLELOG']
+3414 12:15:32.844465 Command Completed (socket: True)
+3414 12:15:32.844830 Running command ['getSetVariable', 'BB_LOGCONFIG']
+3414 12:15:32.845266 Command Completed (socket: True)
+3414 12:15:32.846848 Running command ['getUIHandlerNum']
+3414 12:15:32.847273 Command Completed (socket: True)
+3414 12:15:32.848143 Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+3414 12:15:32.848591 Command Completed (socket: True)
+3414 12:15:32.849407 Running command ['getVariable', 'BB_DEFAULT_TASK']
+3414 12:15:32.849726 Command Completed (socket: True)
+3414 12:15:32.850205 Running command ['setConfig', 'cmd', 'build']
+3414 12:15:32.850538 Command Completed (socket: True)
+3414 12:15:32.851036 Running command ['buildTargets', ['printhello'], 'build']
+3414 12:15:32.851154 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7fd2e9fa6d30>>
+3414 12:15:32.851349 Command Completed (socket: True)
+3414 12:15:32.927383 Parsing started
+3414 12:15:32.935067 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7fd2e9fa6d30>> at idleFinish
+3414 12:15:33.192356 Processing Client
+3414 12:15:33.192601 Disconnecting Client (socket: True)
+3414 12:15:33.193207 No timeout, exiting.
+3414 12:15:33.297536 Exiting (socket: True)
+3414 12:15:33.298010 Lockfile directory gone, exiting.
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3446 12:22:42.829878 --- Starting bitbake server pid 3446 at 2023-07-19 12:22:42.829854 ---
+3446 12:22:42.830832 Started bitbake server pid 3446
+3446 12:22:42.830997 Entering server connection loop
+3446 12:22:42.831022 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3446 12:22:42.832433 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3446 12:22:42.832768 Processing Client
+3446 12:22:42.832814 Connecting Client
+3446 12:22:42.833052 Running command ['setFeatures', [2, 1]]
+3446 12:22:42.833227 Command Completed (socket: True)
+3446 12:22:42.833942 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/hello-bitbake', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake', 'printhello']]
+3446 12:22:42.845210 Base config valid
+3446 12:22:42.845756 Command Completed (socket: True)
+3446 12:22:42.845852 Running command ['getVariable', 'BBINCLUDELOGS']
+3446 12:22:42.846152 Command Completed (socket: True)
+3446 12:22:42.846672 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+3446 12:22:42.846984 Command Completed (socket: True)
+3446 12:22:42.847312 Running command ['getSetVariable', 'BB_CONSOLELOG']
+3446 12:22:42.847699 Command Completed (socket: True)
+3446 12:22:42.848354 Running command ['getSetVariable', 'BB_LOGCONFIG']
+3446 12:22:42.848587 Command Completed (socket: True)
+3446 12:22:42.849958 Running command ['getUIHandlerNum']
+3446 12:22:42.850172 Command Completed (socket: True)
+3446 12:22:42.850527 Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+3446 12:22:42.850743 Command Completed (socket: True)
+3446 12:22:42.851127 Running command ['getVariable', 'BB_DEFAULT_TASK']
+3446 12:22:42.851347 Command Completed (socket: True)
+3446 12:22:42.851848 Running command ['setConfig', 'cmd', 'build']
+3446 12:22:42.852337 Command Completed (socket: True)
+3446 12:22:42.852395 Running command ['buildTargets', ['printhello'], 'build']
+3446 12:22:42.852458 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7f803eb51d30>>
+3446 12:22:42.852582 Command Completed (socket: True)
+3446 12:22:42.941549 Parsing started
+3446 12:22:42.952618 Parse cache valid
+3446 12:22:43.251305 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7f803eb51d30>> at idleFinish
+3446 12:22:43.507656 Processing Client
+3446 12:22:43.508318 Disconnecting Client (socket: True)
+3446 12:22:43.509318 Parse cache invalidated
+3446 12:22:43.509441 No timeout, exiting.
+3446 12:22:43.612423 Exiting (socket: True)
+3446 12:22:43.614086 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3485 12:25:08.373262 --- Starting bitbake server pid 3485 at 2023-07-19 12:25:08.373232 ---
+3485 12:25:08.374127 Started bitbake server pid 3485
+3485 12:25:08.374305 Entering server connection loop
+3485 12:25:08.374335 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3485 12:25:08.375420 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3485 12:25:08.376735 Processing Client
+3485 12:25:08.376803 Connecting Client
+3485 12:25:08.377076 Running command ['setFeatures', [2, 1]]
+3485 12:25:08.377261 Command Completed (socket: True)
+3485 12:25:08.378066 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/hello-bitbake', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake', 'printhello.bb']]
+3485 12:25:08.390980 Base config valid
+3485 12:25:08.391208 Command Completed (socket: True)
+3485 12:25:08.391590 Running command ['getVariable', 'BBINCLUDELOGS']
+3485 12:25:08.391908 Command Completed (socket: True)
+3485 12:25:08.392469 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+3485 12:25:08.392709 Command Completed (socket: True)
+3485 12:25:08.393038 Running command ['getSetVariable', 'BB_CONSOLELOG']
+3485 12:25:08.393292 Command Completed (socket: True)
+3485 12:25:08.393618 Running command ['getSetVariable', 'BB_LOGCONFIG']
+3485 12:25:08.393864 Command Completed (socket: True)
+3485 12:25:08.395240 Running command ['getUIHandlerNum']
+3485 12:25:08.395464 Command Completed (socket: True)
+3485 12:25:08.396390 Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+3485 12:25:08.396637 Command Completed (socket: True)
+3485 12:25:08.396952 Running command ['getVariable', 'BB_DEFAULT_TASK']
+3485 12:25:08.397195 Command Completed (socket: True)
+3485 12:25:08.397508 Running command ['setConfig', 'cmd', 'build']
+3485 12:25:08.397731 Command Completed (socket: True)
+3485 12:25:08.398064 Running command ['buildTargets', ['printhello.bb'], 'build']
+3485 12:25:08.398135 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7fdbb57f8d30>>
+3485 12:25:08.398259 Command Completed (socket: True)
+3485 12:25:08.479544 Parsing started
+3485 12:25:08.500220 Parse cache valid
+3485 12:25:08.761681 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7fdbb57f8d30>> at idleFinish
+3485 12:25:09.013511 Processing Client
+3485 12:25:09.013621 Disconnecting Client (socket: True)
+3485 12:25:09.013857 Parse cache invalidated
+3485 12:25:09.013889 No timeout, exiting.
+3485 12:25:09.118993 Exiting (socket: True)
+3485 12:25:09.120554 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
+3495 12:25:36.603559 --- Starting bitbake server pid 3495 at 2023-07-19 12:25:36.603531 ---
+3495 12:25:36.604577 Started bitbake server pid 3495
+3495 12:25:36.604776 Entering server connection loop
+3495 12:25:36.604807 Lockfile is: /home/ansari/hello-bitbake/bitbake.lock
+Socket is /home/ansari/hello-bitbake/bitbake.sock (True)
+3495 12:25:36.605406 Accepting [<socket.socket fd=6, family=AddressFamily.AF_UNIX, type=SocketKind.SOCK_STREAM, proto=0, laddr=bitbake.sock>] ([])
+3495 12:25:36.606570 Processing Client
+3495 12:25:36.606634 Connecting Client
+3495 12:25:36.606915 Running command ['setFeatures', [2, 1]]
+3495 12:25:36.607096 Command Completed (socket: True)
+3495 12:25:36.607822 Running command ['updateConfig', {'halt': True, 'force': False, 'invalidate_stamp': None, 'dry_run': False, 'dump_signatures': [], 'extra_assume_provided': [], 'profile': False, 'prefile': [], 'postfile': [], 'server_timeout': None, 'nosetscene': False, 'setsceneonly': False, 'skipsetscene': False, 'runall': [], 'runonly': None, 'writeeventlog': None, 'build_verbose_shell': False, 'build_verbose_stdout': False, 'default_loglevel': 20, 'debug_domains': {}}, {'SHELL': '/bin/bash', 'PWD': '/home/ansari/hello-bitbake', 'LOGNAME': 'ansari', 'HOME': '/home/ansari', 'BBPATH': '/home/ansari/hello-bitbake', 'USER': 'ansari', 'PATH': '/home/ansari/bitbake/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games', 'LC_ALL': 'en_US.UTF-8', 'SESSION_MANAGER': 'local/Ansari:@/tmp/.ICE-unix/1554,unix/Ansari:/tmp/.ICE-unix/1554', 'QT_ACCESSIBILITY': '1', 'COLORTERM': 'truecolor', 'SSH_AGENT_LAUNCHER': 'openssh', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'XMODIFIERS': '@im=ibus', 'DESKTOP_SESSION': 'gnome', 'GTK_MODULES': 'gail:atk-bridge', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PZVA81', 'GDM_LANG': 'en_US.UTF-8', 'USERNAME': 'ansari', 'IM_CONFIG_PHASE': '1', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '6203', 'WAYLAND_DISPLAY': 'wayland-0', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/db26e15f_2d11_4d2e_88a6_cb15d6e8632c', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'GNOME_TERMINAL_SERVICE': ':1.100', 'DISPLAY': ':0', 'SHLVL': '1', 'QT_IM_MODULE': 'ibus', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDMSESSION': 'gnome', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'OLDPWD': '/home/ansari', '_': '/home/ansari/bitbake/bin/bitbake'}, ['/home/ansari/bitbake/bin/bitbake', 'printhello']]
+3495 12:25:36.624279 Base config valid
+3495 12:25:36.624684 Command Completed (socket: True)
+3495 12:25:36.625397 Running command ['getVariable', 'BBINCLUDELOGS']
+3495 12:25:36.626327 Command Completed (socket: True)
+3495 12:25:36.627175 Running command ['getVariable', 'BBINCLUDELOGS_LINES']
+3495 12:25:36.627878 Command Completed (socket: True)
+3495 12:25:36.628277 Running command ['getSetVariable', 'BB_CONSOLELOG']
+3495 12:25:36.628638 Command Completed (socket: True)
+3495 12:25:36.629059 Running command ['getSetVariable', 'BB_LOGCONFIG']
+3495 12:25:36.629345 Command Completed (socket: True)
+3495 12:25:36.631795 Running command ['getUIHandlerNum']
+3495 12:25:36.632642 Command Completed (socket: True)
+3495 12:25:36.633526 Running command ['setEventMask', 1, 20, {}, ['bb.runqueue.runQueueExitWait', 'bb.event.LogExecTTY', 'logging.LogRecord', 'bb.build.TaskFailed', 'bb.build.TaskBase', 'bb.event.ParseStarted', 'bb.event.ParseProgress', 'bb.event.ParseCompleted', 'bb.event.CacheLoadStarted', 'bb.event.CacheLoadProgress', 'bb.event.CacheLoadCompleted', 'bb.command.CommandFailed', 'bb.command.CommandExit', 'bb.command.CommandCompleted', 'bb.cooker.CookerExit', 'bb.event.MultipleProviders', 'bb.event.NoProvider', 'bb.runqueue.sceneQueueTaskStarted', 'bb.runqueue.runQueueTaskStarted', 'bb.runqueue.runQueueTaskFailed', 'bb.runqueue.sceneQueueTaskFailed', 'bb.event.BuildBase', 'bb.build.TaskStarted', 'bb.build.TaskSucceeded', 'bb.build.TaskFailedSilent', 'bb.build.TaskProgress', 'bb.event.ProcessStarted', 'bb.event.ProcessProgress', 'bb.event.ProcessFinished']]
+3495 12:25:36.634023 Command Completed (socket: True)
+3495 12:25:36.634614 Running command ['getVariable', 'BB_DEFAULT_TASK']
+3495 12:25:36.635033 Command Completed (socket: True)
+3495 12:25:36.635542 Running command ['setConfig', 'cmd', 'build']
+3495 12:25:36.635978 Command Completed (socket: True)
+3495 12:25:36.636385 Running command ['buildTargets', ['printhello'], 'build']
+3495 12:25:36.636481 Registering idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7f7674351d30>>
+3495 12:25:36.636620 Command Completed (socket: True)
+3495 12:25:36.705849 Parsing started
+3495 12:25:36.713038 Parse cache valid
+3495 12:25:36.714295 Registering idle function <function BBCooker.buildTargets.<locals>.buildTargetsIdle at 0x7f767436bd30>
+3495 12:25:36.714381 Removing idle function <bound method Command.runAsyncCommand of <bb.command.Command object at 0x7f7674351d30>>
+3495 12:25:38.511604 Removing idle function <function BBCooker.buildTargets.<locals>.buildTargetsIdle at 0x7f767436bd30> at idleFinish
+3495 12:25:38.769265 Processing Client
+3495 12:25:38.769371 Disconnecting Client (socket: True)
+3495 12:25:38.769616 Parse cache invalidated
+3495 12:25:38.769645 No timeout, exiting.
+3495 12:25:38.877659 Exiting (socket: True)
+3495 12:25:38.879407 Exiting as we could obtain the lock
+sys:1: ResourceWarning: unclosed file <_io.TextIOWrapper name='/home/ansari/hello-bitbake/bitbake-cookerdaemon.log' mode='a+' encoding='UTF-8'>
